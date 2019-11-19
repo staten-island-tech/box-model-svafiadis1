@@ -4,8 +4,9 @@ html {
   box-sizing: border-box;
 }
 
-.title {
-  height: 100vh;
+#title {
+  height: 5vh;
+  width: 100vw;
   color: white;
   font-size: 5vh;
   font-family: font-family: 'Staatliches', cursive;
@@ -20,9 +21,29 @@ html {
 .background {
   height: 100vh;
   width: 100vw;
-  padding: 10px;
   margin: 0 10px;
   position: absolute;
   background-image: url(media/cupcakes.jpg);
   background-size: cover;
+}
+
+.transparent{
+  background-color: white;
+  opacity: 30%;
+  height: 27vh;
+}
+
+.paragraph{
+  height: 95vh;
+  width: 100vw;
+  margin: 0 10px;
+  color: pink;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 50px;
+  z-index: 15;
+  letter-spacing: 2px;
+  text-shadow: none;
+  opacity: 100%;
 }
