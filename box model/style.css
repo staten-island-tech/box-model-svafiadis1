@@ -33,12 +33,12 @@ html {
   opacity: 30%;
   margin: 1rem;
   width: 99vw;
-  height: 27vh;
+  height: 26rem;
   z-index: 0;
 }
 
 .paragraph{
-  height: 27vh;
+  height: 27rem;
   width: 98vw;
   margin: 1rem;
   color: pink;
@@ -50,4 +50,8 @@ html {
   text-shadow: none;
   z-index: 15;
   opacity: 100%;
+}
+
+.image{
+  height: 5rem;
 }
